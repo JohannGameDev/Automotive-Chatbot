@@ -1,0 +1,1225 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Wie weit ist es nach Hamburg",
+        "intent": "distance_intent",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Hamburg",
+            "entity": "location_city"
+          }
+          ]
+      },
+
+      {
+        "text": "Wie weit ist Hamburg entfernt?",
+        "intent": "distance_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "Hamburg",
+            "entity": "location_city"
+          }
+          ]
+      },
+      {
+        "text": "wie weit ist Hamburg entfernt?",
+        "intent": "distance_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "Hamburg",
+            "entity": "location_city"
+          }
+          ]
+      },
+      {
+        "text": "Wie weit ist es nach Hamburg?",
+        "intent": "distance_intent",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Hamburg",
+            "entity": "location_city"
+          }
+          ]
+      },
+      {
+        "text": "Ich will zum Arzt",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Arzt",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich muss zum Arzt.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "arzt",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich will zum Konzert",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Konzert",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich muss zum Termin",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "termin",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+         {
+        "text": "Ich muss zum Arzttermin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "Arzttermin",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich will zum Termin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "termin",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich muss zum Sport.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "sport",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich will zum Sport.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "sport",
+            "entity": "calendar_event"
+          }
+          ]
+      },
+      {
+        "text": "Ich will dorthin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "dorthin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },{
+        "text": "Ich will dahin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "dorthin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Wie komme ich dahin?",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "dahin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Kannst du mich hin fahren?",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "hin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Will dahin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "dahin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Will dorthin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "dorthin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Möchte hin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "hin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Will hin",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "hin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Ich will um 17 Uhr dort sein.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "dort",
+            "entity": "location_dest_nl"
+          }
+        ]
+      },
+      {
+        "text": "Wie komme ich dorthin?",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "dorthin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Wie komme ich dorthin.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "dorthin",
+            "entity": "location_dest_nl"
+          }
+          ]
+      },
+      {
+        "text": "Ich will nach Berlin",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Berlin",
+            "entity": "location_city"
+          }
+          ]
+      },
+      {
+        "text": "Ich muss nach leipzig",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Leipzig",
+            "entity": "location_city"
+          }
+        ]
+      },
+          {
+            "text": "Wie komme ich zur Skarbinastr.74",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 18,
+                "end": 32,
+                "value": "Skarbinastr.74",
+                "entity": "location_street"
+              }
+          ]
+      },
+      {
+        "text": "Ich will zur Keinnamestr.67",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "Keinnamestr.67",
+            "entity": "location_street"
+          }
+      ]
+  },
+      {
+        "text": "Wie komme ich zur Turmstraße",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "Turmstraße",
+            "entity": "location_street"
+          }
+      ]
+  },
+  {
+    "text": "Begleite mich zur Bierstr.19",
+    "intent": "route_intent",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "Bierstr.19",
+        "entity": "location_street"
+      }
+  ]
+},
+{
+  "text": "Begleite mich zur Hermannstr. 11",
+  "intent": "route_intent",
+  "entities": [
+    {
+      "start": 18,
+      "end": 32,
+      "value": "Hermannstr. 19",
+      "entity": "location_street"
+    }
+]
+},
+{
+  "text": "Ich will zur Wexstr. 195",
+  "intent": "route_intent",
+  "entities": [
+    {
+      "start": 13,
+      "end": 24,
+      "value": "Wexstr. 195",
+      "entity": "location_street"
+    }
+]
+},
+  {
+    "text": "Ich möchte zur Bahnhofstraße in Berlin",
+    "intent": "route_intent",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "Bahnhofstraße",
+        "entity": "location_street"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "Berlin",
+        "entity": "location_city"
+      }
+  ]
+},
+      {
+  "text": "Plan mir eine Route zur Skarbinastr.74 in Berlin.",
+  "intent": "route_intent",
+  "entities": [
+    {
+      "start": 24,
+      "end": 38,
+      "value": "Skarbinastr.74",
+      "entity": "location_street"
+    },
+    {
+      "start": 42,
+      "end": 48,
+      "value": "Berlin",
+      "entity": "location_city"
+    }
+]
+},
+{
+  "text": "Wie komme ich zur Blastraße 22 in Köln",
+  "intent": "route_intent",
+  "entities": [
+    {
+      "start": 18,
+      "end": 30,
+      "value": "Blastraße 22",
+      "entity": "location_street"
+    },
+    {
+      "start": 34,
+      "end": 38,
+      "value": "Köln",
+      "entity": "location_city"
+    }
+]
+},
+{
+  "text": "Ich möchte zur Fakestraße 78",
+  "intent": "route_intent",
+  "entities": [
+    {
+      "start": 15,
+      "end": 28,
+      "value": "Fakestraße 78",
+      "entity": "location_street"
+    }
+]
+},
+      {
+        "text": "Wie komme ich nach hamburg",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Hamburg",
+            "entity": "location_city"
+          }
+      ]
+  },
+  {
+    "text": "Schaffe ich es jetzt noch zur Friedrichstraße 99?",
+    "intent": "route_intent",
+    "entities": [
+      {
+        "start": 30,
+        "end": 48,
+        "value": "Friedrichstraße 99",
+        "entity": "location_street"
+      }
+  ]
+},
+  {
+    "text": "Schaffe ich es jetzt noch nach Potsdam?",
+    "intent": "route_intent",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "Potsdam",
+        "entity": "location_city"
+      }
+  ]
+},
+      {
+        "text": "Wie komme ich zur Skarbinastr.",
+        "intent": "route_intent",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "Skarbinastr.",
+            "entity": "location_street"
+          }
+        ]
+        }
+          ,
+          {
+            "text": "Ich muss um 15:00 Uhr in dresden sein",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 25,
+                "end": 32,
+                "value": "Dresden",
+                "entity": "location_city"
+              }
+            ]
+          },
+          {
+            "text": "Ich muss um 17 Uhr in Greifswald sein",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 22,
+                "end": 32,
+                "value": "Greifswald",
+                "entity": "location_city"
+              }
+            ]
+          },
+          {
+            "text": "Plan mir ein Weg in den Fakedamm 129",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 24,
+                "end": 36,
+                "value": "Fakedamm 129",
+                "entity": "location_street"
+              }
+            ]
+          },
+          {
+            "text": "Bring mich in die Heilbutstr.49",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 18,
+                "end": 31,
+                "value": "Heilbutstr.49",
+                "entity": "location_street"
+              }
+            ]
+          },
+          {
+            "text": "Ich will so gegen 18:45 Uhr in Potsdam",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 31,
+                "end": 38,
+                "value": "Potsdam",
+                "entity": "location_city"
+              }
+              ]
+          },
+          {
+            "text": "Ich will so gegen 18:45 in Potsdam sein",
+            "intent": "route_intent",
+            "entities": [
+              {
+                "start": 27,
+                "end": 34,
+                "value": "Potsdam",
+                "entity": "location_city"
+              }
+              ]
+          },
+          {
+            "text": "Wie ist das Wetter hier?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 19,
+                "end": 23,
+                "value": "hier",
+                "entity": "location_current_nl"
+              }
+              ]
+          },
+          {
+            "text": "Ist das Wetter hier gut?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 15,
+                "end": 19,
+                "value": "hier",
+                "entity": "location_current_nl"
+              }
+              ]
+          },
+          {
+            "text": "Wie schauts hier aus?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 12,
+                "end": 16,
+                "value": "hier",
+                "entity": "location_current_nl"
+              }
+              ]
+          },
+          {
+            "text": "Wie ist das Wetter bei meinem Standpunkt?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 23,
+                "end": 40,
+                "value": "meinem Standpunkt",
+                "entity": "location_current_nl"
+              }
+              ]
+          },
+          {
+            "text": "Wie ist das Wetter dort?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 19,
+                "end": 23,
+                "value": "dort",
+                "entity": "location_dest_nl"
+              }
+              ]
+          },
+          {
+            "text": "Wie ist das Wetter da?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 19,
+                "end": 21,
+                "value": "da",
+                "entity": "location_dest_nl"
+              }
+              ]
+          },
+          {
+            "text": "Und wie ist es da so?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 15,
+                "end": 17,
+                "value": "da",
+                "entity": "location_dest_nl"
+              }
+              ]
+          },
+          {
+            "text": "Und wie ist es dort so?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 15,
+                "end": 19,
+                "value": "dort",
+                "entity": "location_dest_nl"
+              }
+              ]
+          },
+          {
+            "text": "Und wie ist das Wetter dort so?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 23,
+                "end": 27,
+                "value": "dort",
+                "entity": "location_dest_nl"
+              }
+              ]
+          },
+          {
+            "text": "Wie ist das Wetter in Berlin?",
+            "intent": "weather_intent",
+            "entities": [
+              {
+                "start": 22,
+                "end": 28,
+                "value": "Berlin",
+                "entity": "location_city"
+              }
+              ]
+          },
+
+          {
+            "text": "Ist das Wetter gut in Nürnberg?",
+            "intent": "intent",
+            "entities": [
+              {
+                "start": 22,
+                "end": 30,
+                "value": "Nürnberg",
+                "entity": "location_city"
+              }
+              ]
+          }
+          , {
+              "text": "Wie wird das Wetter in Leipzig?",
+              "intent": "weather_intent",
+              "entities": [
+                {
+                  "start": 23,
+                  "end": 30,
+                  "value": "Leipzig",
+                  "entity": "location_city"
+                }
+                ]
+            },
+            {
+                "text": "Ist das Wetter schlecht in Leipzig?",
+                "intent": "intent",
+                "entities": [
+                  {
+                    "start": 27,
+                    "end": 34,
+                    "value": "Leipzig",
+                    "entity": "location_city"
+                  }
+                  ]
+              },
+              {
+                  "text": "Wie schauts aus mit dem Wetter in Koeln?",
+                  "intent": "intent",
+                  "entities": [
+                    {
+                      "start": 34,
+                      "end": 39,
+                      "value": "Koeln",
+                      "entity": "location_city"
+                    }
+                    ]
+                },
+                {
+                    "text": "Ist das Wetter angenehm in Kassel?",
+                    "intent": "weather_intent",
+                    "entities": [
+                      {
+                        "start": 27,
+                        "end": 33,
+                        "value": "Kassel",
+                        "entity": "location_city"
+                      }
+                      ]
+                  },
+
+                  {
+                      "text": "Kann ich mit gutem Wetter rechnen?",
+                      "intent": "weather_intent",
+                      "entities": [  ]
+                    }
+
+
+
+  ]
+    ,
+
+    "intent_examples": [
+
+      {
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hey there",
+        "intent": "greet"
+      },
+      {
+        "text": "hello",
+        "intent": "greet"
+      },
+      {
+        "text": "hi",
+        "intent": "greet"
+      },
+      {
+        "text":"Wo steht meint Auto?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Wo stehst du?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Weißt du wo mein auto steht?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Sag mal wo mein Fahrzeug ist.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Sag mal wo mein Auto ist.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Wie komme ich zu meinem Auto?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Wie komme ich zu meinem auto?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Ich will zu meinem Auto!",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"auto?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"ich habe vergessen wo mein Auto steht.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"ich habe vergessen wo mein auto steht.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Will wissen wo mein Fahrzeug ist!",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Wo steht mein Fahrzeug.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"fahrzeug?",
+        "intent":"car_position_intent"
+      },
+      {
+        "text":"Habe vergessen wo mein Fahrzeug steht.",
+        "intent":"car_position_intent"
+      },
+      {
+        "text": "Wie ist mein Tankstand?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "wie ist mein Tankstand",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "wieviel Tank habe ich übrig?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Wieviel Tank habe ich übrig.",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "reicht mein Tank noch?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Reicht mein Tank noch",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Wieviel Treibstoff habe ich noch?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Reicht mein Treibstoff den ich noch habe.",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Wie sieht es aus mit meinem Treibstoff aus.",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Muss ich noch Treibstoff nachfüllen?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Muss ich noch Treibstoff getankt werden?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "muss ich tanken?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Muss ich tanken",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "muss noch getankt werden?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Muss noch getankt werden",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "soll ich tanken?",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Soll ich tanken.",
+        "intent": "fuel_distance_intent"
+      },
+      {
+        "text": "Wie weit kann ich noch fahren?",
+        "intent":"fuel_distance_intent"
+      }
+      ,
+      {
+        "text": "Für wieviel km reicht mein tank noch aus?",
+        "intent":"fuel_distance_intent"
+      }
+      ,
+      {
+        "text": "Wie weit kann ich noch fahren",
+        "intent":"fuel_distance_intent"
+      }
+      ,
+      {
+        "text": "Wie ist die Reichweite von meinem Fahrzeug.",
+        "intent":"fuel_distance_intent"
+      }
+      ,
+       {
+        "text": "Reicht mein Tank aus um noch ein etwas zu fahren.",
+        "intent":"fuel_distance_intent"
+      }
+      ,
+      {
+        "text": "Ist irgendein Fenster offen",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Ist irgendein fenster offen.",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Sind meine Fenster offen?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Habe ich alle meine fenster geschlossen",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Habe ich vergessen meine Fenster zu schließen?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Kannst du mir sagen ob ein fenster auf ist?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Wie sieht es mit meinen scheiben aus?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Wie sieht es mit meinen Fensterscheiben aus?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Sind alle meine Fensterscheiben geschlossen?",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Sind alle meine Fensterscheiben geschlossen.",
+        "intent": "windows_question_intent"
+      },
+      {
+        "text": "Ist irgendeine Tür offen?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Ist irgendeine Tür offen.",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Sind meine Türen offen?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Habe ich alle meine türen geschlossen",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Habe ich vergessen meine Türen zu schließen?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Kannst du mir sagen ob eine Tür auf ist?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Wie sieht es mit meinen Türen aus?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Wie sieht es mit meinen Türen aus?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Sind alle meine Türen geschlossen?",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Sind alle meine Türen geschlossen.",
+        "intent": "doors_question_intent"
+      },
+      {
+        "text": "Ich will dorthin.",
+        "intent": "route_intent"
+      },{
+        "text": "Ich will dahin.",
+        "intent": "route_intent"
+
+      },
+      {
+        "text": "Wie komme ich dahin?",
+        "intent": "route_intent"
+
+      },
+      {
+        "text": "Kannst du mich hin fahren?",
+        "intent": "route_intent"
+
+      },
+      {
+        "text": "Will dahin.",
+        "intent": "route_intent"
+
+      },
+      {
+        "text": "Wie komme ich nach Hannover?",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Plan mir eine Route nach Fakestadt.",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Wie muss ich fahren damit ich nach Hannover komme.",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Kannst du mir eine Route zum Brandenburger Tor erstellen",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Ich muss um 16:00 in der Fakestr.12 sein",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Ich muss um 16:00 in der Berlinerstr.22 sein",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Ich muss zur Whateverstr.",
+        "intent": "route_intent"
+      },
+      {
+        "text": "Ich muss zur Whateverstr.11",
+        "intent": "route_intent"
+      }  ,
+        {
+          "text": "Wie ist das Wetter im Saarland?",
+          "intent": "weather_intent"
+        }
+        ,
+        {
+          "text": "Wie wird das Wetter in Bamberg",
+          "intent": "weather_intent"
+        },
+        {
+        "text": "Kann ich mit angenehmen Wetter in Hamburg rechnen",
+        "intent": "weather_intent"
+        },{
+          "text": "Wie wird das Wetter?",
+          "intent": "weather_intent"
+        }
+        ,{
+           "text": "Kannst du mir mal das Wetter sagen",
+           "intent": "weather_intent"
+        },{
+            "text": "Ich will wissen wie das Wetter in Landsberg sein wird.",
+            "intent": "weather_intent"
+        }
+        ,{
+             "text": "Wie wird das Wetter in Berlin?",
+             "intent": "weather_intent"
+        },
+        {
+              "text": "Wird das Wetter gut in Brandenburg?",
+              "intent": "weather_intent"
+        },
+        {
+               "text": "Sag mal das Wetter an.",
+               "intent": "weather_intent"
+        },
+        {
+          "text": "Ich muss zum Arzt.",
+          "intent": "route_intent"
+
+        },
+        {
+          "text": "Ich muss zum Termin.",
+          "intent": "route_intent"
+
+        },
+        {
+          "text": "Ich will zum Termin.",
+          "intent": "route_intent"
+
+        },
+        {
+          "text": "Ich muss zum Sport.",
+          "intent": "route_intent"
+
+        },
+        {
+          "text": "Ich will zum Sport.",
+          "intent": "route_intent"
+
+        },
+         {
+          "text": "Wie lange dauert es zur Skarbinastr.74",
+          "intent": "distance_intent"
+
+        },
+        {
+          "text": "Wie lange dauert es nach Bamberg?",
+          "intent": "distance_intent"
+
+        },
+      {
+          "text": "Wie lange dauert es nach Leipzig",
+          "intent": "distance_intent"
+
+      }
+      ,
+      {
+          "text": "Wie weit ist es zur Fakestr. .",
+          "intent": "distance_intent"
+
+      },
+      {
+          "text": "Wie weit is es nach Dortmund",
+          "intent": "distance_intent"
+
+        },
+       {
+          "text": "Was ist die Distanz nach Leipzig?",
+          "intent": "distance_intent"
+       },
+      {
+          "text": "Was ist die Distanz nach Leipzig?",
+          "intent": "distance_intent"
+      }
+      ,
+      {
+        "text": "Ich will mit!",
+          "intent": "accompany_intent"
+      },
+       {
+        "text": "Ich!",
+          "intent": "accompany_intent"
+      },
+       {
+        "text": "Ich will mit bitte!",
+          "intent": "accompany_intent"
+      },
+       {
+        "text": "Ich.",
+          "intent": "accompany_intent"
+      },
+      {"text": "Mach mal!",
+          "intent": "plan_intent"},
+      {"text": "jetzt plan mal!",
+          "intent": "plan_intent"},
+      {"text": "Bitte, plane die Route jetzt!",
+          "intent": "plan_intent"},
+       {"text": "Bitte, plane die Route jetzt.",
+          "intent": "plan_intent"},
+      {"text": "Ok, wir wollen los.",
+          "intent": "plan_intent"},
+      {"text": "Na dann los.",
+          "intent": "plan_intent"},
+      {"text": "Wir können los.",
+          "intent": "plan_intent"},
+       {"text": "Las uns los!",
+          "intent": "plan_intent"}
+
+
+
+
+    ]
+  }
+}
